@@ -1,9 +1,10 @@
 # mac-sparse-disk.sh
 
 A bash utility to create, mount and umount a .sparsebundle file. It works
-under macOS only.
+under macOS only. 
 
-> see also <https://hedzr.com/tech/nology/hdiutil-and-sparsebundle/>.
+> - See also <https://hedzr.com/tech/nology/hdiutil-and-sparsebundle/>.
+> - See also <https://github.com/hedzr/bash.sh>
 
 ## Install
 
@@ -74,6 +75,8 @@ $ mac-sparse-disk.bash detach good-test
 ```
 
 ### Retrieve the source image path
+
+This command can find the source image path from a mount point (suchh as `/Volumes/good-test`).
 
 ```bash
 $ mac-sparse-disk.bash to-image-path good-test
