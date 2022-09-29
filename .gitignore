@@ -1,0 +1,6 @@
+*.dmg
+*.iso
+*.sparseimage
+*.sparsebundle
+
+test
